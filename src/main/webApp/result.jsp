@@ -8,7 +8,7 @@
 Profile Details
 </h1>
 <%
-List list = (List) request.getAttribute("brands");
+List list = (List) request.getAttribute("Type");
 Iterator it= list.iterator();
 while(it.hasNext()){
 out.println(it.next()+"<br>");
